@@ -10,6 +10,10 @@ import { Dialog } from '@microsoft/sp-dialog';
 
 import * as strings from 'CommandSetCommandSetStrings';
 
+
+import {sp } from "@pnp/sp/presets/all";
+
+
 /**
  * If your command set uses the ClientSideComponentProperties JSON input,
  * it will be deserialized into the BaseExtension.properties object.
@@ -38,19 +42,65 @@ export default class CommandSetCommandSet extends BaseListViewCommandSet<IComman
       // This command should be hidden unless exactly one row is selected.
       compareOneCommand.visible = event.selectedRows.length === 1;
     }
+
+
+
+  const compareTwoCommand: Command = this.tryGetCommand('COMMAND_2');
+  if (compareTwoCommand) {
+    // This command should be hidden unless exactly one row is selected.
+    compareTwoCommand.visible = event.selectedRows.length > 1;
   }
+
+  const compareThreeCommand: Command = this.tryGetCommand('COMMAND_3');
+  if (compareThreeCommand) {
+    // This command should be hidden unless exactly one row is selected.
+    compareThreeCommand.visible = event.selectedRows.length > 1;
+  }
+
+
+}
+
+
 
   @override
   public onExecute(event: IListViewCommandSetExecuteEventParameters): void {
     switch (event.itemId) {
       case 'COMMAND_1':
-        Dialog.alert(`${this.properties.sampleTextOne}`);
+        // Dialog.alert(`${this.properties.sampleTextOne}`);
+      let title: string= event.selectedRows[0].getValueByName("Title").toString();
+      let Status: string = event.selectedRows[0].getValueByName("Status").toString();
+
+      Dialog.alert(`Project Name: ${title} \n Project Status: ${Status}% done`);
+
         break;
       case 'COMMAND_2':
         Dialog.alert(`${this.properties.sampleTextTwo}`);
         break;
+
+      case 'COMMAND_3':
+        Dialog.prompt(`Project Status Remarks`).then((value:string)=>{
+          this.UpdateRemarks(event.selectedRows,value)
+        });
+
+
       default:
         throw new Error('Unknown command');
     }
   }
+
+  private UpdateRemarks(items: any, value: string) {
+    let batch = sp.createBatch();
+
+    items.forEach(item => {
+      sp.web.lists.getByTitle("ProjectsStatus").items.getById(item.getValueByName('ID')).inBatch(batch).update({ Remarks: value }).then(res => {
+
+      });
+    });
+    batch.execute().then(res => {
+      location.reload();
+    });;
+  }
+
+
+
 }

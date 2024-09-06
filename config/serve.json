@@ -4,25 +4,25 @@
   "https": true,
   "serveConfigurations": {
     "default": {
-      "pageUrl": "https://contoso.sharepoint.com/sites/mySite/SitePages/myPage.aspx",
+      "pageUrl": "https://apps.sarirpey.com/Lists/ProjectsStatus/AllItems.aspx",
       "customActions": {
         "7b31a104-8f7d-418a-8007-328039ea577d": {
           "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
           "properties": {
             "sampleTextOne": "One item is selected in the list",
-            "sampleTextTwo": "This command is always visible."
+            "sampleTextTwo": "Multiple object are selected."
           }
         }
       }
     },
     "commandSet": {
-      "pageUrl": "https://contoso.sharepoint.com/sites/mySite/SitePages/myPage.aspx",
+      "pageUrl": "https://apps.sarirpey.com/Lists/ProjectsStatus/AllItems.aspx",
       "customActions": {
         "7b31a104-8f7d-418a-8007-328039ea577d": {
           "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
           "properties": {
             "sampleTextOne": "One item is selected in the list",
-            "sampleTextTwo": "This command is always visible."
+            "sampleTextTwo": "Multiple object are selected."
           }
         }
       }

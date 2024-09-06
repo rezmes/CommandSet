@@ -49,6 +49,13 @@
       "integrity": "sha512-tBUBN/DNdNBX9m5H9iUnutmoM31Z+X5FSb3Kn3wc72QQ9U/NQW8QqA7KyZmzjBtQwag4hR6pF1Nce1gWvJcpKg==",
       "requires": {
         "tslib": "~1.8.0"
+      },
+      "dependencies": {
+        "tslib": {
+          "version": "1.8.1",
+          "resolved": "https://registry.npmjs.org/tslib/-/tslib-1.8.1.tgz",
+          "integrity": "sha512-13/fEL8ro991mjA1w35XI/FSHF4dI2L+zNxkJJnGUcjFG4Ht+3ztBusOmg/DFiOks5NKJX3wXSG+q/nKUmhe5g=="
+        }
       }
     },
     "@microsoft/gulp-core-build": {
@@ -405,6 +412,13 @@
         "react": "15.6.2",
         "react-dom": "15.6.2",
         "tslib": "~1.8.0"
+      },
+      "dependencies": {
+        "tslib": {
+          "version": "1.8.1",
+          "resolved": "https://registry.npmjs.org/tslib/-/tslib-1.8.1.tgz",
+          "integrity": "sha512-13/fEL8ro991mjA1w35XI/FSHF4dI2L+zNxkJJnGUcjFG4Ht+3ztBusOmg/DFiOks5NKJX3wXSG+q/nKUmhe5g=="
+        }
       }
     },
     "@microsoft/package-deps-hash": {
@@ -566,6 +580,11 @@
           "version": "1.7.9",
           "resolved": "https://registry.npmjs.org/@microsoft/load-themed-styles/-/load-themed-styles-1.7.9.tgz",
           "integrity": "sha512-XxDxvSdl0BsrF3v+GQGwQYPFCI9ItHDVGdjIJ9d2QLzL+HRHwkfzGcZ7fpr7R4NemGIEz/jQHg1a14I4XS2tUA=="
+        },
+        "tslib": {
+          "version": "1.8.1",
+          "resolved": "https://registry.npmjs.org/tslib/-/tslib-1.8.1.tgz",
+          "integrity": "sha512-13/fEL8ro991mjA1w35XI/FSHF4dI2L+zNxkJJnGUcjFG4Ht+3ztBusOmg/DFiOks5NKJX3wXSG+q/nKUmhe5g=="
         }
       }
     },
@@ -898,6 +917,14 @@
         "@microsoft/sp-lodash-subset": "1.4.1",
         "@types/webpack-env": "1.13.1",
         "tslib": "~1.8.0"
+      },
+      "dependencies": {
+        "tslib": {
+          "version": "1.8.1",
+          "resolved": "https://registry.npmjs.org/tslib/-/tslib-1.8.1.tgz",
+          "integrity": "sha512-13/fEL8ro991mjA1w35XI/FSHF4dI2L+zNxkJJnGUcjFG4Ht+3ztBusOmg/DFiOks5NKJX3wXSG+q/nKUmhe5g==",
+          "dev": true
+        }
       }
     },
     "@microsoft/sp-component-base": {
@@ -975,6 +1002,13 @@
         "@types/webpack-env": "1.13.1",
         "adal-angular": "1.0.16",
         "tslib": "~1.8.0"
+      },
+      "dependencies": {
+        "tslib": {
+          "version": "1.8.1",
+          "resolved": "https://registry.npmjs.org/tslib/-/tslib-1.8.1.tgz",
+          "integrity": "sha512-13/fEL8ro991mjA1w35XI/FSHF4dI2L+zNxkJJnGUcjFG4Ht+3ztBusOmg/DFiOks5NKJX3wXSG+q/nKUmhe5g=="
+        }
       }
     },
     "@microsoft/sp-listview-extensibility": {
@@ -1023,6 +1057,13 @@
         "@types/lodash": "4.14.74",
         "@types/webpack-env": "1.13.1",
         "tslib": "~1.8.0"
+      },
+      "dependencies": {
+        "tslib": {
+          "version": "1.8.1",
+          "resolved": "https://registry.npmjs.org/tslib/-/tslib-1.8.1.tgz",
+          "integrity": "sha512-13/fEL8ro991mjA1w35XI/FSHF4dI2L+zNxkJJnGUcjFG4Ht+3ztBusOmg/DFiOks5NKJX3wXSG+q/nKUmhe5g=="
+        }
       }
     },
     "@microsoft/sp-module-interfaces": {
@@ -1041,6 +1082,13 @@
       "integrity": "sha512-CAz/i+TQ1SCcFZEwBp5EpMMFaKF0cBTv2R+rlPLHpt+/gRvuuBf9I7yJHhRlhf4vhZ6/vzpuSKajHNriHkjk/w==",
       "requires": {
         "tslib": "~1.8.0"
+      },
+      "dependencies": {
+        "tslib": {
+          "version": "1.8.1",
+          "resolved": "https://registry.npmjs.org/tslib/-/tslib-1.8.1.tgz",
+          "integrity": "sha512-13/fEL8ro991mjA1w35XI/FSHF4dI2L+zNxkJJnGUcjFG4Ht+3ztBusOmg/DFiOks5NKJX3wXSG+q/nKUmhe5g=="
+        }
       }
     },
     "@microsoft/sp-page-context": {
@@ -1055,6 +1103,13 @@
         "@types/es6-promise": "0.0.33",
         "@types/webpack-env": "1.13.1",
         "tslib": "~1.8.0"
+      },
+      "dependencies": {
+        "tslib": {
+          "version": "1.8.1",
+          "resolved": "https://registry.npmjs.org/tslib/-/tslib-1.8.1.tgz",
+          "integrity": "sha512-13/fEL8ro991mjA1w35XI/FSHF4dI2L+zNxkJJnGUcjFG4Ht+3ztBusOmg/DFiOks5NKJX3wXSG+q/nKUmhe5g=="
+        }
       }
     },
     "@microsoft/sp-polyfills": {
@@ -1070,6 +1125,11 @@
         "whatwg-url": "4.7.1"
       },
       "dependencies": {
+        "tslib": {
+          "version": "1.8.1",
+          "resolved": "https://registry.npmjs.org/tslib/-/tslib-1.8.1.tgz",
+          "integrity": "sha512-13/fEL8ro991mjA1w35XI/FSHF4dI2L+zNxkJJnGUcjFG4Ht+3ztBusOmg/DFiOks5NKJX3wXSG+q/nKUmhe5g=="
+        },
         "whatwg-fetch": {
           "version": "2.0.3",
           "resolved": "https://registry.npmjs.org/whatwg-fetch/-/whatwg-fetch-2.0.3.tgz",
@@ -1090,6 +1150,12 @@
         "tsutils": "~2.11.2"
       },
       "dependencies": {
+        "tslib": {
+          "version": "1.14.1",
+          "resolved": "https://registry.npmjs.org/tslib/-/tslib-1.14.1.tgz",
+          "integrity": "sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==",
+          "dev": true
+        },
         "tsutils": {
           "version": "2.11.2",
           "resolved": "https://registry.npmjs.org/tsutils/-/tsutils-2.11.2.tgz",
@@ -1133,6 +1199,11 @@
           "version": "1.7.9",
           "resolved": "https://registry.npmjs.org/@microsoft/load-themed-styles/-/load-themed-styles-1.7.9.tgz",
           "integrity": "sha512-XxDxvSdl0BsrF3v+GQGwQYPFCI9ItHDVGdjIJ9d2QLzL+HRHwkfzGcZ7fpr7R4NemGIEz/jQHg1a14I4XS2tUA=="
+        },
+        "tslib": {
+          "version": "1.8.1",
+          "resolved": "https://registry.npmjs.org/tslib/-/tslib-1.8.1.tgz",
+          "integrity": "sha512-13/fEL8ro991mjA1w35XI/FSHF4dI2L+zNxkJJnGUcjFG4Ht+3ztBusOmg/DFiOks5NKJX3wXSG+q/nKUmhe5g=="
         }
       }
     },
@@ -1162,6 +1233,14 @@
         "react": "15.6.2",
         "react-dom": "15.6.2",
         "tslib": "~1.8.0"
+      },
+      "dependencies": {
+        "tslib": {
+          "version": "1.8.1",
+          "resolved": "https://registry.npmjs.org/tslib/-/tslib-1.8.1.tgz",
+          "integrity": "sha512-13/fEL8ro991mjA1w35XI/FSHF4dI2L+zNxkJJnGUcjFG4Ht+3ztBusOmg/DFiOks5NKJX3wXSG+q/nKUmhe5g==",
+          "dev": true
+        }
       }
     },
     "@microsoft/stream-collator": {
@@ -1212,6 +1291,43 @@
           "integrity": "sha512-ENwblkFQpqqia6b++zLD/KUWafYlVY/UNnAp7oz7LY7E924wmpye416wBOmvv/HMWzl8gL1kJlfvId/1Dg176w==",
           "dev": true
         }
+      }
+    },
+    "@pnp/common": {
+      "version": "2.0.9",
+      "resolved": "https://registry.npmjs.org/@pnp/common/-/common-2.0.9.tgz",
+      "integrity": "sha512-e/cNcOrg0TsuVb3AcnPfUHAGVdn/+uVzt4XUhO2CXuPyTeC7N2VTGtlyhvs2LMhtYOMa+bp2qAygZl2LQUnDOg==",
+      "requires": {
+        "tslib": "2.0.0"
+      }
+    },
+    "@pnp/logging": {
+      "version": "2.0.9",
+      "resolved": "https://registry.npmjs.org/@pnp/logging/-/logging-2.0.9.tgz",
+      "integrity": "sha512-910A/Qf1dX9eVJpozEN92jTb8xL64hs/WKbgKXhRVa7/cbiwQz7EKOY6uGcftSpg9LIIu4fYpSCqcAeYJ+XPew==",
+      "requires": {
+        "tslib": "2.0.0"
+      }
+    },
+    "@pnp/odata": {
+      "version": "2.0.9",
+      "resolved": "https://registry.npmjs.org/@pnp/odata/-/odata-2.0.9.tgz",
+      "integrity": "sha512-OKJ1D8+eiFCfnU1P6lcXnop/NHyDWXKR16CQuN/2phSgRok0ROC95B3LEUf3ytfJV9TRErPJGW/HbYQW/6MAJg==",
+      "requires": {
+        "@pnp/common": "2.0.9",
+        "@pnp/logging": "2.0.9",
+        "tslib": "2.0.0"
+      }
+    },
+    "@pnp/sp": {
+      "version": "2.0.9",
+      "resolved": "https://registry.npmjs.org/@pnp/sp/-/sp-2.0.9.tgz",
+      "integrity": "sha512-CsCfchK8EsY4AijBYbmXULq4PztTiX17Ov3w+TJYPa6XJYSMqcmexrJEJTmJE5ke5WGuN1/8ThkH3MqJFkKNrQ==",
+      "requires": {
+        "@pnp/common": "2.0.9",
+        "@pnp/logging": "2.0.9",
+        "@pnp/odata": "2.0.9",
+        "tslib": "2.0.0"
       }
     },
     "@types/adal": {
@@ -1618,6 +1734,13 @@
       "requires": {
         "@uifabric/styling": ">=5.3.0 <6.0.0",
         "tslib": "^1.6.0"
+      },
+      "dependencies": {
+        "tslib": {
+          "version": "1.14.1",
+          "resolved": "https://registry.npmjs.org/tslib/-/tslib-1.14.1.tgz",
+          "integrity": "sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg=="
+        }
       }
     },
     "@uifabric/merge-styles": {
@@ -1626,6 +1749,13 @@
       "integrity": "sha512-4/EtO6Ns7kNtKxC+6InShwVQeNQEDT5H8Ex7m/i4OrT9i7csje4YwBQPkkpm31qJwEZEyD7bbAwyLezI63sLhg==",
       "requires": {
         "tslib": "^1.7.1"
+      },
+      "dependencies": {
+        "tslib": {
+          "version": "1.14.1",
+          "resolved": "https://registry.npmjs.org/tslib/-/tslib-1.14.1.tgz",
+          "integrity": "sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg=="
+        }
       }
     },
     "@uifabric/styling": {
@@ -1637,6 +1767,13 @@
         "@uifabric/merge-styles": ">=5.17.1 <6.0.0",
         "@uifabric/utilities": ">=5.34.2 <6.0.0",
         "tslib": "^1.7.1"
+      },
+      "dependencies": {
+        "tslib": {
+          "version": "1.14.1",
+          "resolved": "https://registry.npmjs.org/tslib/-/tslib-1.14.1.tgz",
+          "integrity": "sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg=="
+        }
       }
     },
     "@uifabric/utilities": {
@@ -1647,6 +1784,13 @@
         "@uifabric/merge-styles": ">=5.17.1 <6.0.0",
         "prop-types": "^15.5.10",
         "tslib": "^1.7.1"
+      },
+      "dependencies": {
+        "tslib": {
+          "version": "1.14.1",
+          "resolved": "https://registry.npmjs.org/tslib/-/tslib-1.14.1.tgz",
+          "integrity": "sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg=="
+        }
       }
     },
     "abab": {
@@ -11923,6 +12067,13 @@
         "@uifabric/utilities": ">=5.3.3 <6.0.0",
         "prop-types": "^15.5.10",
         "tslib": "^1.7.1"
+      },
+      "dependencies": {
+        "tslib": {
+          "version": "1.14.1",
+          "resolved": "https://registry.npmjs.org/tslib/-/tslib-1.14.1.tgz",
+          "integrity": "sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg=="
+        }
       }
     },
     "on-finished": {
@@ -15849,9 +16000,9 @@
       "dev": true
     },
     "tslib": {
-      "version": "1.8.1",
-      "resolved": "https://registry.npmjs.org/tslib/-/tslib-1.8.1.tgz",
-      "integrity": "sha512-13/fEL8ro991mjA1w35XI/FSHF4dI2L+zNxkJJnGUcjFG4Ht+3ztBusOmg/DFiOks5NKJX3wXSG+q/nKUmhe5g=="
+      "version": "2.0.0",
+      "resolved": "https://registry.npmjs.org/tslib/-/tslib-2.0.0.tgz",
+      "integrity": "sha512-lTqkx847PI7xEDYJntxZH89L2/aXInsyF2luSafe/+0fHOMjlBNXdH6th7f70qxLDhul7KZK0zC8V5ZIyHl0/g=="
     },
     "tslint": {
       "version": "5.6.0",
@@ -15869,6 +16020,14 @@
         "semver": "^5.3.0",
         "tslib": "^1.7.1",
         "tsutils": "^2.7.1"
+      },
+      "dependencies": {
+        "tslib": {
+          "version": "1.14.1",
+          "resolved": "https://registry.npmjs.org/tslib/-/tslib-1.14.1.tgz",
+          "integrity": "sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==",
+          "dev": true
+        }
       }
     },
     "tslint-microsoft-contrib": {
@@ -15893,6 +16052,14 @@
       "dev": true,
       "requires": {
         "tslib": "^1.8.1"
+      },
+      "dependencies": {
+        "tslib": {
+          "version": "1.14.1",
+          "resolved": "https://registry.npmjs.org/tslib/-/tslib-1.14.1.tgz",
+          "integrity": "sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==",
+          "dev": true
+        }
       }
     },
     "tty-browserify": {
@@ -15954,9 +16121,9 @@
       "dev": true
     },
     "typescript": {
-      "version": "2.4.2",
-      "resolved": "https://registry.npmjs.org/typescript/-/typescript-2.4.2.tgz",
-      "integrity": "sha512-a6qhFjx88CqXM92QX6e5zwbYavxaknEdFhh/ZrBmuHEP+r2ye102uvhCkWdian4u5Ee17W+8fAN7xtdM8KeQ7A==",
+      "version": "3.6.4",
+      "resolved": "https://registry.npmjs.org/typescript/-/typescript-3.6.4.tgz",
+      "integrity": "sha512-unoCll1+l+YK4i4F8f22TaNVPRHcD9PA3yCuZ8g5e0qGqlVlJ/8FSateOLLSagn+Yg5+ZwuPkL8LFUc0Jcvksg==",
       "dev": true
     },
     "ua-parser-js": {
